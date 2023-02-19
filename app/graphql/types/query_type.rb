@@ -17,7 +17,7 @@ module Types
     end
 
     def total_photos
-      42
+      Photo.count
     end
   end
 end
